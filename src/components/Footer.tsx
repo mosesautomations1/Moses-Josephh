@@ -37,7 +37,7 @@ export function Footer() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="text-[15px] font-bold text-[#DCE5F0] hover:text-white transition-colors"
+                    className="relative inline-block py-1 text-[15px] font-bold text-[#DCE5F0] hover:text-white transition-colors duration-200 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[#1677FF] after:to-[#65A9FF] after:transition-all after:duration-300 after:ease-out hover:after:w-full focus-visible:after:w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#65A9FF] rounded"
                   >
                     {item.label}
                   </a>
